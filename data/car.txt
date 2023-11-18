@@ -1,0 +1,157 @@
+1;Acura;Integra;A;1.8;140
+2;Acura;TL;C;3.2;225
+3;Acura;CL;C;3.2;225
+4;Acura;RL;C;3.5;210
+5;Audi;A4;A;1.8;150
+6;Audi;A6;B;2.8;200
+7;Audi;A8;C;4.2;310
+8;BMW;323i;B;2.5;170
+9;BMW;328i;B;2.8;193
+10;BMW;528i;B;2.8;193
+11;Buick;Century;B;3.1;175
+12;Buick;Regal;C;3.8;240
+13;Buick;Park Avenue;C;3.8;205
+14;Buick;LeSabre;C;3.8;205
+15;Cadillac;DeVille;C;4.6;275
+16;Cadillac;Seville;C;4.6;275
+17;Cadillac;Eldorado;C;4.6;275
+18;Cadillac;Catera;B;3;200
+19;Cadillac;Escalade;C;5.7;255
+20;Chevrolet;Cavalier;A;2.2;115
+21;Chevrolet;Malibu;B;3.1;170
+22;Chevrolet;Lumina;B;3.1;175
+23;Chevrolet;Monte Carlo;B;3.4;180
+24;Chevrolet;Camaro;B;3.8;200
+25;Chevrolet;Corvette;C;5.7;345
+26;Chevrolet;Prizm;A;1.8;120
+27;Chevrolet;Metro;A;1;55
+28;Chevrolet;Impala;B;3.4;180
+29;Chrysler;Sebring Coupe;B;2.5;163
+30;Chrysler;Sebring Conv.;B;2.5;168
+31;Chrysler;Concorde;B;2.7;200
+32;Chrysler;Cirrus;A;2;132
+33;Chrysler;LHS;C;3.5;253
+34;Chrysler;Town & Country;A;;
+35;Chrysler;300M;C;3.5;253
+36;Dodge;Neon;A;2;132
+37;Dodge;Avenger;B;2.5;163
+38;Dodge;Stratus;B;2.5;168
+39;Dodge;Intrepid;C;2.7;202
+40;Dodge;Viper;C;8;450
+41;Dodge;Ram Pickup;C;5.2;230
+42;Dodge;Ram Wagon;B;3.9;175
+43;Dodge;Ram Van;B;3.9;175
+44;Dodge;Dakota;A;2.5;120
+45;Dodge;Durango;C;5.2;230
+46;Dodge;Caravan;A;2.4;150
+47;Ford;Escort;A;2;110
+48;Ford;Mustang;B;3.8;190
+49;Ford;Contour;B;2.5;170
+50;Ford;Taurus;B;3;155
+51;Ford;Focus;A;2;107
+52;Ford;Crown Victoria;B;4.6;200
+53;Ford;Explorer;C;4;210
+54;Ford;Windstar;A;3;150
+55;Ford;Expedition;C;4.6;240
+56;Ford;Ranger;A;2.5;119
+57;Ford;F-Series;C;4.6;220
+58;Honda;Civic;A;1.6;106
+59;Honda;Accord;A;2.3;135
+60;Honda;CR-V;A;2;146
+61;Honda;Passport;C;3.2;205
+62;Honda;Odyssey;C;3.5;210
+63;Hyundai;Accent;A;1.5;92
+64;Hyundai;Elantra;A;2;140
+65;Hyundai;Sonata;A;2.4;148
+66;Infiniti;I30;C;3;227
+67;Jaguar;S-Type;C;3;240
+68;Jeep;Wrangler;A;2.5;120
+69;Jeep;Cherokee;B;4;190
+70;Jeep;Grand Cherokee;B;4;195
+71;Lexus;ES300;C;3;210
+72;Lexus;GS300;C;3;225
+73;Lexus;GS400;C;4;300
+74;Lexus;LS400;C;4;290
+75;Lexus;LX470;C;4.7;230
+76;Lexus;RX300;C;3;220
+77;Lincoln;Continental;C;4.6;275
+78;Lincoln;Town car;C;4.6;215
+79;Lincoln;Navigator;C;5.4;300
+80;Mitsubishi;Mirage;A;1.8;113
+81;Mitsubishi;Eclipse;B;2.4;154
+82;Mitsubishi;Galant;A;2.4;145
+83;Mitsubishi;Diamante;C;3.5;210
+84;Mitsubishi;3000GT;B;3;161
+85;Mitsubishi;Montero;B;3.5;200
+86;Mitsubishi;Montero Sport;B;3;173
+87;Mercury;Mystique;A;2;125
+88;Mercury;Cougar;A;2;125
+89;Mercury;Sable;B;3;153
+90;Mercury;Grand Marquis;B;4.6;200
+91;Mercury;Mountaineer;C;4;210
+92;Mercury;Villager;B;3.3;170
+93;Mercedes-B;C-Class;B;2.3;185
+94;Mercedes-B;E-Class;C;3.2;221
+95;Mercedes-B;S-Class;C;4.3;275
+96;Mercedes-B;SL-Class;C;5;302
+97;Mercedes-B;SLK;B;2.3;190
+98;Mercedes-B;SLK230;B;2.3;185
+99;Mercedes-B;CLK Coupe;C;3.2;215
+100;Mercedes-B;CL500;C;5;302
+101;Mercedes-B;M-Class;C;3.2;215
+102;Nissan;Sentra;A;1.8;126
+103;Nissan;Altima;B;2.4;155
+104;Nissan;Maxima;C;3;222
+105;Nissan;Quest;B;3.3;170
+106;Nissan;Pathfinder;B;3.3;170
+107;Nissan;Xterra;B;3.3;170
+108;Nissan;Frontier;B;3.3;170
+109;Oldsmobile;Cutlass;A;3.1;150
+110;Oldsmobile;Intrigue;C;3.5;215
+111;Oldsmobile;Alero;A;2.4;150
+112;Oldsmobile;Aurora;C;4;250
+113;Oldsmobile;Bravada;B;4.3;190
+114;Oldsmobile;Silhouette;B;3.4;185
+115;Plymouth;Neon;A;2;132
+116;Plymouth;Breeze;A;2;132
+117;Plymouth;Voyager;A;2.4;150
+118;Plymouth;Prowler;C;3.5;253
+119;Pontiac;Sunfire;A;2.4;150
+120;Pontiac;Grand Am;B;3.4;175
+121;Pontiac;Firebird;B;3.8;200
+122;Pontiac;Grand Prix;B;3.8;195
+123;Pontiac;Bonneville;C;3.8;205
+124;Pontiac;Montana;B;3.4;185
+125;Porsche;Boxter;C;2.7;217
+126;Porsche;Carrera Coupe;C;3.4;300
+127;Porsche;Carrera Cabrio;C;3.4;300
+128;Saab;5-Sep;B;2.3;170
+129;Saab;3-Sep;B;2;185
+130;Saturn;SL;A;1.9;100
+131;Saturn;SC;A;1.9;100
+132;Saturn;SW;A;1.9;124
+133;Saturn;LW;A;2.2;137
+134;Saturn;LS;A;2.2;137
+135;Subaru;Outback;B;2.5;165
+136;Subaru;Forester;B;2.5;165
+137;Toyota;Corolla;A;1.8;120
+138;Toyota;Camry;A;2.2;133
+139;Toyota;Avalon;C;3;210
+140;Toyota;Celica;A;1.8;140
+141;Toyota;Tacoma;A;2.4;142
+142;Toyota;Sienna;B;3;194
+143;Toyota;RAV4;A;2;127
+144;Toyota;4Runner;A;2.7;150
+145;Toyota;Land Cruiser;C;4.7;230
+146;Volkswagen;Golf;A;2;115
+147;Volkswagen;Jetta;A;2;115
+148;Volkswagen;Passat;A;1.8;150
+149;Volkswagen;Cabrio;A;2;115
+150;Volkswagen;GTI;A;2;115
+151;Volkswagen;Beetle;A;2;115
+152;Volvo;S40;B;1.9;160
+153;Volvo;V40;B;1.9;160
+154;Volvo;S70;B;2.4;168
+155;Volvo;V70;B;2.4;168
+156;Volvo;C70;C;2.3;236
+157;Volvo;S80;C;2.9;201

@@ -1,0 +1,20 @@
+1;Bolelut;Domeracki;customer service;4
+2;Delia;Cywiński;customer service;8
+3;Konstantyn;Tucholski;marketing manager;5
+4;Kemal;Tucholski;receptionist;7
+5;Lora;Szymczak;customer service;5
+6;Miłorad;Rożek;project manager;3
+7;Lubisław;Puk;customer service;2
+8;Szymon;Cabaj;receptionist;4
+9;Sędzisława;Magnuszewski;customer service;3
+10;Abelard;Koryciński;customer service;8
+11;Korneli;Gacek;marketing manager;1
+12;Karina;Nowowiejski;marketing manager;2
+13;Domasław;Zembrzuski;receptionist;8
+14;Kemal;Koryciński;receptionist;7
+15;Celina;Polewski;customer service;3
+16;Wioleta;Murzyn;customer service;5
+17;Kasjusz;Kusak;receptionist;7
+18;Strzeżymira;Juda;customer service;1
+19;Izaura;Fijał;customer service;3
+20;Lubisław;Jędras;customer service;1
