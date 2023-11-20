@@ -1,5 +1,3 @@
--- FROM '<ROOT_PATH>\data\st_wykorzystania_miejsc_noclegowych.txt'
-
 /* Create tables */
 
 DROP TABLE IF EXISTS rent;

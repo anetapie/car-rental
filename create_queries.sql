@@ -1,7 +1,5 @@
 /* Creating queries */ 
 
--- Select information from tables
-
 
 -- 1. List the car brands that are in the car rental.  
 
@@ -52,7 +50,7 @@ GROUP BY "age_groups"
 ORDER BY "age_groups";
 
 
--- 6. List the employees and the cities and area where they work.
+-- 6. List the employees along with the cities and areas in which they work.
 
 SELECT lt.name, lt.last_name, rt.city_name, rt.area	 
 FROM employee AS lt
@@ -85,7 +83,7 @@ HAVING COUNT(lt.client_id) > 1
 ORDER BY "sum_rent" DESC;
 
 
--- 9. List the number of days for each car rental.
+-- 9. For how many days were cars rented most often?
 
 SELECT date_pickup, date_return, (date_return - date_pickup) AS "sum_day" 
 FROM rent
@@ -97,7 +95,7 @@ GROUP BY "sum_day"
 ORDER BY "quantity" DESC;
 
   
--- 10. List the sum of rentals of each class of car.  
+-- 10. List the sum of rentals of each class of car. 
 
 SELECT rt.class_car, COUNT(rt.class_car) AS "sum"
 FROM rent AS lt
@@ -123,7 +121,7 @@ LEFT JOIN price AS t4
 ON t4.class_car = t3.class_car;
 
 
--- 12. Enter the total amount of all recorded car rentals.
+-- 12. Show the total amount the customers had to pay for all rentals.
 
 SELECT 
 	sum((t1.date_return - t1.date_pickup)* t4.price_per_day) AS "sum_price" 

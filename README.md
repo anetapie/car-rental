@@ -5,7 +5,9 @@ Analysis of car rental company data.
 
 ## Methodology
 
-Generating random [data](./data/) using [Python](./generate_data.py) Exporting the data to files in SQL format. Querying the database in pgAdmin 4 (PostgresSQL) to perform the following analysis;
+Downloading and preparing the data needed for the "car_sales" table from the <a href="https://www.kaggle.com/datasets/gagandeep16/car-sales?resource=download">website</a>.  
+Generating random [data](./data/) using [Python](./generate_data.py) Exporting the data to files in SQL format.  
+Querying the database in pgAdmin 4 (PostgresSQL) to perform analysis.
 
 ## Primary Objective
 
@@ -14,13 +16,13 @@ Generating random [data](./data/) using [Python](./generate_data.py) Exporting t
 3. List the brands of cars that are in class C.  
 4. List the number of clients by age.  
 5. List selected customers in the following age ranges: 18-24, 25-34, 35-44, 45-54, over 55.  
-6. List the employees and the cities and area where they work.  
+6. List the employees along with the cities and areas in which they work. 
 7. List how many employees work in each area.  
 8. Are there customers who have rented a car more than once? If so, who and how many times?  
-9. List the number of days for each car rental.  
+9. For how many days were cars rented most often?
 10. List the sum of rentals of each class of car.  
-11. List the amount the customers had to pay for each car rental.  
-12. Enter the total amount of all recorded car rentals.  
+11. List the amount the customers had to pay for each car rental. 
+12. Show the total amount the customers had to pay for all rentals.
 13. List the phone number of each employee with the department and area.
 
 
@@ -157,7 +159,6 @@ WITH (FORMAT CSV, DELIMITER ';');
 
 # Creating queries
 
-## Select information from tables
 ### 1. List the car brands that are in the car rental.
 
 ```
@@ -256,7 +257,7 @@ ORDER BY "age_groups";
 |4   |45-54       |49   |
 |5   |Over 50     |35   |
 
-### 6. List the employees and the cities and area where they work.
+### 6. List the employees along with the cities and areas in which they work.
 
 ```
 SELECT lt.name, lt.last_name, rt.city_name, rt.area	 
@@ -330,7 +331,7 @@ ORDER BY "sum_rent" DESC;
 --snip--
 
 
-### 9. List the number of days for each car rental.
+### 9. For how many days were cars rented most often?
 
 ```
 SELECT (date_return - date_pickup) AS "sum_day", count(date_return - date_pickup) AS "quantity"
@@ -392,7 +393,7 @@ ON t4.class_car = t3.class_car;
 --snip--
 
 
-###  12. Enter the total amount of all recorded car rentals.
+###  12. Show the total amount the customers had to pay for all rentals.
 
 ```
 SELECT 
